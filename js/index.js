@@ -240,14 +240,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
     });
 
-   /* var cartItems = document.getElementById('cartItems');
+    var cartItems = document.getElementById('cartItems');
     cartItems.addEventListener('click', function (e) {
         if(e.target.className == 'close-button')
         {
             var item = helpers.itemData(this.parentNode);
             cart.removeItem(item);
         }
-    });*/
+    });
 
     document.querySelector('#clear').addEventListener('click', function (e) {
 
